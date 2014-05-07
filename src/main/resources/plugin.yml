@@ -1,0 +1,14 @@
+name: BUKKIT-5216-TEST
+main: com.publicuhc.bukkit_5216_test.PluginEntry
+version: 1.0
+description: Test plugin for BUKKIT-5216
+author: ghowden/Eluinhost
+database: false
+softdepend: [WorldEdit,ProtocolLib]
+commands:
+  cancelsatiated:
+    description: Cancels all the satiated events
+    usage: /<command>
+  setparams:
+    description: Sets health/food to the right levels
+    usage: /<command>
